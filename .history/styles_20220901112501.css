@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Rotobto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    background-color: black;
+    color: #fff;
+}
+
+a, a:hover, a:visited {
+    color: unset;
+    text-decoration: none;
+}
+
+.dsmeta-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dsmeta-logo-container svg{
+    width: 235px;
+}
