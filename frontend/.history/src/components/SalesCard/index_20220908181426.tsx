@@ -13,16 +13,10 @@ function SalesCard () {
                     selected={new Date()}
                     onChange={(date: Date) => {}}
                     className="dsmeta-form-control"
-                    dateFormat="dd/MM/yyyy"
-                />
+                    dateFormat="dd/MM/YYYY" />
               </div>
               <div className="dsmeta-form-control-container">
-                <DatePicker
-                    selected={new Date()}
-                    onChange={(date: Date) => {}}
-                    className="dsmeta-form-control"
-                    dateFormat="dd/MM/yyyy"
-                />
+                <input className="dsmeta-form-control" type="text" />
               </div>
             </div>
 
