@@ -1,4 +1,4 @@
-import NotificationButton from "./components/NotificationButton"
+import NotificationButton from "./assets/components/NotificationButton"
 
 
 function App() {
