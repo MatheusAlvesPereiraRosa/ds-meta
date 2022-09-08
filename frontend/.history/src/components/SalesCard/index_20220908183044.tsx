@@ -1,8 +1,8 @@
-import Button from '../NotificationButton/index';
+import Button from '../NotificationButton/index'
 import DatePicker from 'react-datepicker'
-import "react-datepicker/dist/;react-datepicker.css";
-import './styles.css';
-import { useState } from 'react';
+import "react-datepicker/dist/react-datepicker.css"
+import './styles.css'
+import { useState } from 'react'
 
 function SalesCard () {
     const max = new Date()
@@ -94,4 +94,4 @@ function SalesCard () {
     )
 }
 
-export default SalesCard;
+export default SalesCard
